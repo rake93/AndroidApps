@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget32"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/rupees"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="3dp"
+	android:hint="Rupees" />
+<EditText
+	android:id="@+id/rupees_box"
+	android:layout_width="242px"
+	android:layout_height="wrap_content"
+	android:padding="5dp"
+	android:layout_marginRight="5dp"
+	android:text="EditText"
+	android:textSize="18sp" />
+<TextView
+	android:id="@+id/dollars"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="5dp"
+	android:hint="Dollars" />
+<EditText
+	android:id="@+id/dollars_box"
+	android:layout_width="241px"
+	android:layout_height="wrap_content"
+	android:padding="5dp"
+	android:text="EditText"
+	android:textSize="18sp" />
+<RadioGroup
+	android:id="@+id/widget40"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+<RadioButton
+	android:id="@+id/rtod"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="5dp"
+	android:text="Rupee To Dollar"
+	android:hint="Rupee To Dollar"
+	android:checked="true" />
+<RadioButton
+	android:id="@+id/dtor"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="5dp"
+	android:text="Dollar To Rupee" />
+</RadioGroup>
+<Button
+	android:id="@+id/convert"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:padding="5dp"
+	android:layout_marginLeft="100dp"
+	android:text="Convert" />
+</LinearLayout>
